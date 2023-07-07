@@ -1,0 +1,30 @@
+body {
+    display: flex;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+#green {
+    order: 3;
+  }
+  
+  #orange {
+    order: 4;
+    flex-grow: 12;
+  }
+  
+  #yellow {
+    order: 1;
+  }
+  
+  #red {
+    order: 2;
+  }
+  
+  #blue {
+    order: 5;
+  }
